@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=EB+Garamond:wght@500&family=Lato:ital,wght@0,300;1,700&family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Property section */
+
+.property-disign{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+/* Image Section */
+
+.box-one{
+    height: 100vh;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 100px;
+    background-color: rgb(241,244,236);
+}
+
+.box-one img{
+    border-radius: 140px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.box-one h1{
+    font-size: 40px;
+}
+
+.box-one .end{
+    display: flex;
+}
+
+.box-one .end p{
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+/* Box Two */
+
+.box-two{
+    width: 940px;
+    height: 100%;
+    padding: 40px 80px;
+}
+
+.box-two nav ul button{
+    padding: 10px 25px;
+    background: none;
+    border-radius: 30px;
+}
+
+/* Hero Section */
+
+.hero-section{
+    height: 590px;
+    width: 790px;
+    display: flex;
+}
+
+.hero-section .one{
+    height: 590px;
+    width: 395px;
+}
+
+.hero-section .one p{
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 55px;
+    padding-top: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.hero-section .one img{
+    width: 400px;
+    height: 230px;
+    margin-left: -10px;
+    border-radius: 130px;
+    margin-top: 40px;
+}
+
+.hero-section .one p:last-child{
+    font-size: 33px;
+    font-weight: 200;
+    line-height: 35px;
+    padding-top: 20px;
+    font-family: 'Alegreya', serif;
+    margin-top: 35px;
+}
+
+
+
+.hero-section .two img{
+    width: 300px;
+}
+
+.hero-section .two h2{
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.hero-section .two p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.hero-section .two .a{
+    width: 100px;
+    margin-top: 50px;
+}
+.hero-section .two .b{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.hero-section .two .a p{
+    font-size: 18px;
+    line-height: 17px;
+}
+.hero-section .two .end .b p{
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.hero-section .two .end{
+    display: flex;
+}
